@@ -97,7 +97,7 @@ Please make sure you consult the Common Tracker Library before adding more data 
 
 At this point baby Olivia has been enrolled in the system, but the notification has not been sent yet.
 
-![Birth Enrollment](resources/images/ve_03_birth_enrollment.png)
+![Birth Enrollment](resources/images/ve_03_birth_notification.png)
 
 #### 3.2.3 Birth details stage
 
