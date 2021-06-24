@@ -8,7 +8,7 @@ Notwithstanding the importance of the availability of vital statistics, the unev
 
 The Vital Events (VE) Tracker is a tool designed to increase the availability and the use of reliable data with the purpose of reinforcing the performances of health systems. The tracker module provides the opportunity to improve timeliness and accuracy of data, and to expand coverage of the reporting of core events such as birth, stillbirths, and death, by triggering real time notifications directly from the point of care. Notifications alone will not replace the official National CRVS or the legal framework of implementing countries, but they will improve and strengthen the foundation of a reliable demographic statistical repository.
 
-This package was developed in response to an expressed need from the UNICEF, GAVI, and WHO joint statement in which all agencies reaffirmed their commitment to the SGDs and vulnerable populations, especially women and children, by working together with governments and partners to strengthen CRVS systems. The design is based on the UNICEF’s Guidance for health programme policy-makers, managers and development partners on [HEALTH SECTOR CONTRIBUTIONS TOWARDS IMPROVING THE CIVIL REGISTRATION OF BIRTHS AND DEATHS IN LOW-INCOME COUNTRIES](https://www.who.int/healthinfo/CRVS_ResourceKit_2012.pdf)
+This package was developed in response to an expressed need from the UNICEF, GAVI, and WHO joint statement in which all agencies reaffirmed their commitment to the SGDs and vulnerable populations, especially women and children, by working together with governments and partners to strengthen CRVS systems. The design is based on the UNICEF’s Guidance for health programme policy-makers, managers and development partners on [HEALTH SECTOR CONTRIBUTIONS TOWARDS IMPROVING THE CIVIL REGISTRATION OF BIRTHS AND DEATHS IN LOW-INCOME COUNTRIES](https://apps.who.int/iris/handle/10665/341911)
 
 This document is intended for use by DHIS2 implementers at country and regional level to be able to support implementation and localization of the package. Local work flows, national guidelines, and the respective vaccination product guidelines should be considered during the configuration and adaptation of this package.
 
@@ -304,4 +304,4 @@ Recommended: 16GB RAM  4vCPUs  80 GB of disk space
 
 ## 10. Resources
 
-Strengthening civil registration and vital statistics for births, deaths and causes of death - Resource Kit, World Health Organization, 2012. URL: **[https://www.who.int/healthinfo/CRVS_ResourceKit_2012.pdf](https://www.who.int/healthinfo/CRVS_ResourceKit_2012.pdf)**
+[Health sector contributions towards improving the civil registration of births and deaths in low-income countries: guidance for health sector managers, civil registrars and development partners](https://apps.who.int/iris/handle/10665/341911)
