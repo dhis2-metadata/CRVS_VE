@@ -203,6 +203,7 @@ In order to send a notification via SMS, we have created a Tracked Entity Attrib
 ## 6. Analytics
 
 Here below a list of the available core Indicators. **Please mind that all the indicators’ calculations use only the notified births/deaths/stillbirths, not the enrolled ones**. This choice has been made in order to easily detect discrepancies in the system between enrollments without final notifications and the total number of notified events; and in order to align with the nature of the program itself - notifications.
+
 |                            Indicator                            |                                         Numerator                                         |              Denominator              |
 |:---------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:-------------------------------------:|
 | VE - Notified births/deaths/stillbirths                         | All the births/deaths/stillbirths whose notifications have been sent to the national CRVS | 1                                     |
