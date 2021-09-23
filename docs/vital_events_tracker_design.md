@@ -1,4 +1,4 @@
-# Vital Events - Tracker System Design Guide
+# Vital Events - Tracker System Design Guide { #vital-events-design }
 
 ## 1. Introduction
 
