@@ -290,18 +290,6 @@ If the questions are added to the TB case surveillance tracker, some extra indic
 - Number of unnotified TB-related deaths
 - Number of death notifications sent at the time of TB outcome completion
 
-## 9. Performance considerations
-
-If you experience that tracker is showing slow load times, please get in touch with the implementation team. This is likely related to the working lists and a large number of TEIs in one org unit. A solution is to disable the “Display front page list” check in the program details. This has the downside of also disabling working lists.  
-  
-Even though the package is published from 2.33, our testing indicates that the best performance is achieved by installing it on an instance running DHIS2 2.35 and up and ensuring that their server has a JDK with java 11.
-
-For small to medium implementations (<10K Organisation Units, <1000users (250 concurrent users max) the Hardware Specifications for Web Server are:
-
-Minimum: 8GB RAM  2vCPUs  50GB of disk space
-
-Recommended: 16GB RAM  4vCPUs  80 GB of disk space
-
-## 10. Resources
+## 9. Resources
 
 [Health sector contributions towards improving the civil registration of births and deaths in low-income countries: guidance for health sector managers, civil registrars and development partners](https://apps.who.int/iris/handle/10665/341911)
