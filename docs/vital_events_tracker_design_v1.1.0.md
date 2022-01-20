@@ -35,6 +35,11 @@ Each vital event will go through an enrollment process. Depending on the event i
 
 Standard data analyses in the form of predefined dashboards will be available from the information encoded in the enrollment and the different stages. The analytics will also give the possibility to link this package to other DHIS2 packages for data triangulation analysis (e.g. the immunization registry, the HIV tracker, or the cause of death just to name a few) if they are installed in the same instance.
 
+### Version 1.0.0. vs version 1.1.0. 
+
+The design of the Vital Events tracker program has been reviewed and adjusted to improve its flow of information and the end-user experience. 
+The differences between the baseline and version 1.1.0. can be found in the [Vital Events Diff File](resources/VE_diff_1.0vs1.1_en.xslx).
+
 ## Tracker Program Configuration
 
 |Structure|Description|
