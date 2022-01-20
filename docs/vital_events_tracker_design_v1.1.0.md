@@ -38,7 +38,7 @@ Standard data analyses in the form of predefined dashboards will be available fr
 ### Version 1.0.0. vs version 1.1.0. 
 
 The design of the Vital Events tracker program has been reviewed and adjusted to improve its flow of information and the end-user experience. 
-The differences between the baseline and version 1.1.0. can be found in the [Vital Events Diff File](resources/VE_diff_1.0vs1.1_en.xslx).
+The differences between the baseline and version 1.1.0. can be found in the [Vital Events Diff File](resources/VE_diff_1.0vs1.1_en.xslx) and in [Jira](https://jira.dhis2.org/browse/METRGDHIS2-568).
 
 ## Tracker Program Configuration
 
