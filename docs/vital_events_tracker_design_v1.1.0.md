@@ -84,9 +84,10 @@ The second stage of the program, “Birth details” will request more informati
 
    The data elements reported in this stage and options available in dropdown lists can be changed/reduced/increased according to the local context.
 
->Note: 
->The automatic warnings are triggered whenever the birth weight exceeds the upper and the lower guideline limits. The lower threshold for the warning trigger has been set at 2500 g, whereas the upper limit has been set at 4500 g. This warning has been set purely to avoid data entry mistakes such as mistyping or mixing of weight units (kg instead of g). Please note that the warning message does not imply the health status of the newborn.
->Should the notification not have info on the gestational weeks and the weight of the newborn, the user should tick the boxes provided - rules have been set to prevent the completion of the stage if the data element (e.g. Gestational age) and its correspondent unknown data element (Unknown gestational age) are either both filled, or both blank. This is of particular important for the reporting of unknonwn variables - the program indicators measuring the numbers of unkonwn gestational age and unknown weight are only weighting the number of boxes that have been ticked, not if the weight or gestational age are left empty as a proxy for unknown information. 
+> **Note**
+>
+> The automatic warnings are triggered whenever the birth weight exceeds the upper and the lower guideline limits. The lower threshold for the warning trigger has been set at 2500 g, whereas the upper limit has been set at 4500 g. This warning has been set purely to avoid data entry mistakes such as mistyping or mixing of weight units (kg instead of g). Please note that the warning message does not imply the health status of the newborn.
+> Should the notification not have info on the gestational weeks and the weight of the newborn, the user should tick the boxes provided - rules have been set to prevent the completion of the stage if the data element (e.g. Gestational age) and its correspondent unknown data element (Unknown gestational age) are either both filled, or both blank. This is of particular important for the reporting of unknonwn variables - the program indicators measuring the numbers of unkonwn gestational age and unknown weight are only weighting the number of boxes that have been ticked, not if the weight or gestational age are left empty as a proxy for unknown information. 
 
 #### Stillbirth enrollment
 
@@ -94,7 +95,9 @@ The second stage of the program, “Birth details” will request more informati
 
  ![Stillbirth enrollment](resources/images/ve_sb_enrol_003.png)
 
->Please note that the Stillbirth Enrollment is the only stage where the **"Unknown" option** is available for the reporting of the sex of the tracked entity.
+> **Note**
+>
+> Stillbirth Enrollment is the only stage where the **"Unknown" option** is available for the reporting of the sex of the tracked entity.
 
 #### Stillbirth details stage
 
@@ -122,9 +125,10 @@ John died at the age of 83 years. The son and main contact, Taylor, was not sure
 
 ![Death enrollment >28 days](resources/images/ve_death_enrol_005.png)
 
->Please note that:
->1. an automatic warning message (same message as the one appearing for the name of stillbirths) will appear below the Given Name TEA for all the deaths of children occurring within the first year of life (set as a placeholder). The warning message or the threshold can be changed or removed according to local guidelines.
->2. The Sex data element only presents the "Male" and "Female" options.
+> **Note**
+>
+> 1. an automatic warning message (same message as the one appearing for the name of stillbirths) will appear below the Given Name TEA for all the deaths of children occurring within the first year of life (set as a placeholder). The warning message or the threshold can be changed or removed according to local guidelines.
+> 2. The Sex data element only presents the "Male" and "Female" options.
 
 ##### Death details of a death occurring > 28 days after birth
 
@@ -146,7 +150,9 @@ The information requested in the “Death details “ stage is more similar to t
 
 The data elements reported in this stage and options available in dropdown lists can be changed/reduced/increased according to the local context.
 
---> The automatic warning is triggered whenever the birth weight exceeds the upper and the lower guideline limits. The lower threshold for the warning trigger has been set at 2500 g, whereas the upper limit has been set at 4500 g. This warning has been set purely to avoid data entry mistakes such as mistyping or mixing of weight units (kg instead of g). Please note that the warning message does not imply the health status of the newborn information as a 2500 gram newborn could easily be a healthy baby.
+> **Note**
+>
+> The automatic warning is triggered whenever the birth weight exceeds the upper and the lower guideline limits. The lower threshold for the warning trigger has been set at 2500 g, whereas the upper limit has been set at 4500 g. This warning has been set purely to avoid data entry mistakes such as mistyping or mixing of weight units (kg instead of g). Please note that the warning message does not imply the health status of the newborn information as a 2500 gram newborn could easily be a healthy baby.
 
 ## User groups
 
@@ -182,7 +188,9 @@ In order to send a notification via SMS, we have created a Tracked Entity Attrib
 The full list of program indicators and indicators is available in the [Vital Events Flat File](VE_FlatFile_en.xslx).
 **Please mind that all the indicators’ calculations use only the notified births/deaths/stillbirths, not the enrolled ones**. This choice has been made in order to easily detect discrepancies in the system between enrollments without final notifications and the total number of notified events; and in order to align with the nature of the program itself - notifications.
 
-**!** The 2 months threshold present in some of the analytics has been set as a placeholder for the legal period of notification. The time period will have to be adapted locally according to the National Guidelines
+> **Note**
+>
+> The 2 months threshold present in some of the analytics has been set as a placeholder for the legal period of notification. The time period will have to be adapted locally according to the National Guidelines
 
 ## Dashboards
 
