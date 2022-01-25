@@ -262,7 +262,7 @@ Three core user groups are included in the package:
 
 By default, the following permissions are assigned to these user groups:
 
-| Object                  | User Group                              |                                                     |                                                   |                                                    |
+| Object                  | User Group                              |                                                     |                                 |                                                    
 |-------------------------|-----------------------------------------------|-----------------------------------------------------|---------------------------------------------------|
 |                         | _VE - Access_                           | _VE - Data capture_                                 | _VE - Admin_                                      |
 | _*Tracked entity type*_ | Metadata : can view <br> Data: can view | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view |
