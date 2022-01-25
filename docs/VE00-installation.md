@@ -262,14 +262,14 @@ Three core user groups are included in the package:
 
 By default, the following permissions are assigned to these user groups:
 
-|Object                   |User Group                                     |                                                     |                                                   |                                                    |
+| Object                  | User Group                              |                                                     |                                                   |                                                    |
 |-------------------------|-----------------------------------------------|-----------------------------------------------------|---------------------------------------------------|
-|                         | _VE - Access_                                 | _VE - Data capture_                                 | _VE - Admin_                                      |
-| _*Tracked entity type*_ | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view  |
-| _*Program*_             | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view  |
-| _*Program Stages*_      | Metadata : can view <br> Data: can view       | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view  |
-| _*Dashboards*_          | Metadata : can view                           | No Access                                           | Metadata : can edit and view                      |
-| _*Data Sets*_           | Metadata : can view <br> Data: can view       | No Access                                           | Metadata : can edit and view <br> Data: No access |
+|                         | _VE - Access_                           | _VE - Data capture_                                 | _VE - Admin_                                      |
+| _*Tracked entity type*_ | Metadata : can view <br> Data: can view | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view |
+| _*Program*_             | Metadata : can view <br> Data: can view | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view |
+| _*Program Stages*_      | Metadata : can view <br> Data: can view | Metadata : can view <br> Data: can capture and view | Metadata : can edit and view <br> Data: can view  |
+| _*Dashboards*_          | Metadata : can view                     | No Access                                           | Metadata : can edit and view                      |
+| _*Data Sets*_           | Metadata : can view <br> Data: can view | No Access                                           | Metadata : can edit and view <br> Data: No access |
 
 The users are assigned to the appropriate user group based on their role within the system. Sharing for other objects in the package may be adjusted depending on the set up. Refer to the [DHIS2 Documentation on sharing](#sharing) for more information.
 
