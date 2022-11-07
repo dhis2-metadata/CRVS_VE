@@ -5512,35 +5512,7 @@
             "zeroIsSignificant": false
         }
     ],
-    "dataEntryForms": [
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "KEmGRDvXraX",
-            "name": "Stillbirth Details",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Podrobnosti o narození mrtvého dítěte"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Détails de la mortinaissance"
-                }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        }
-    ],
+    "dataEntryForms": [],
     "dataSets": [],
     "documents": [],
     "eventCharts": [
@@ -13575,7 +13547,7 @@
         "DHIS2Version": "2.36.12",
         "code": "CRVS_VE",
         "description": "Vital Events",
-        "lastUpdated": "20221104T100403",
+        "lastUpdated": "20221107T130514",
         "locale": "en",
         "name": "CRVS_VE_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -21683,16 +21655,13 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "KEmGRDvXraX"
-            },
             "displayExecutionDateLabel": "Date of notification",
             "displayGenerateEventBox": true,
             "enableUserAssignment": false,
             "executionDateLabel": "Date of notification",
             "externalAccess": false,
             "favorite": false,
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": false,
             "hideDueDate": false,
             "id": "wTAeBwb4gse",
