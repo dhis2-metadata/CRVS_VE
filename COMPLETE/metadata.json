@@ -13574,8 +13574,8 @@
         "DHIS2Build": "b6d3754",
         "DHIS2Version": "2.36.12",
         "code": "CRVS_VE",
-        "description": "Vital Events Notification",
-        "lastUpdated": "20220926T153202",
+        "description": "Vital Events",
+        "lastUpdated": "20221104T100403",
         "locale": "en",
         "name": "CRVS_VE_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -23575,7 +23575,7 @@
             "description": "Family name or last name of the patient of case.",
             "dimensionItem": "ENRjVGxVL6l",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayInListNoProgram": false,
+            "displayInListNoProgram": true,
             "displayOnVisitSchedule": false,
             "externalAccess": false,
             "favorite": false,
@@ -23759,7 +23759,7 @@
             "description": "First name",
             "dimensionItem": "sB1IHYu2xQT",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayInListNoProgram": false,
+            "displayInListNoProgram": true,
             "displayOnVisitSchedule": false,
             "externalAccess": false,
             "favorite": false,
@@ -25774,6 +25774,109 @@
             "valueType": "TEXT"
         },
         {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "TB_REG_NR",
+            "confidential": false,
+            "dimensionItem": "ntelZthDPpR",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": true,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "TB registration number",
+            "generated": false,
+            "id": "ntelZthDPpR",
+            "inherit": false,
+            "legendSets": [],
+            "name": "TB registration number",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "TB registration number",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "TB número de registro"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "TB Numéro d'enregistrement "
+                },
+                {
+                    "locale": "ru",
+                    "property": "FORM_NAME",
+                    "value": "Регистрационный номер ТБ"
+                },
+                {
+                    "locale": "es",
+                    "property": "FORM_NAME",
+                    "value": "TB número de registro"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Регистрационный номер ТБ"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB Numéro d'enregistrement "
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "TB número de registro"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Регистрационный номер ТБ"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "FORM_NAME",
+                    "value": "TB número de registro"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "TB Numéro d'enregistrement "
+                },
+                {
+                    "locale": "es_US",
+                    "property": "NAME",
+                    "value": "TB número de registro"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "SHORT_NAME",
+                    "value": "TB número de registro"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT"
+        },
+        {
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
@@ -25867,7 +25970,83 @@
                 "users": {}
             },
             "style": {},
-            "trackedEntityTypeAttributes": [],
+            "trackedEntityTypeAttributes": [
+                {
+                    "attributeValues": [],
+                    "displayInList": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ycDbR77mXr0",
+                    "name": "Person GEN - Given name",
+                    "searchable": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "trackedEntityAttribute": {
+                        "id": "sB1IHYu2xQT"
+                    },
+                    "trackedEntityType": {
+                        "id": "MCPQUTHX1Ze"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "valueType": "TEXT"
+                },
+                {
+                    "attributeValues": [],
+                    "displayInList": true,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "o71yvCr2FeK",
+                    "name": "Person GEN - Family name",
+                    "searchable": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "trackedEntityAttribute": {
+                        "id": "ENRjVGxVL6l"
+                    },
+                    "trackedEntityType": {
+                        "id": "MCPQUTHX1Ze"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "valueType": "TEXT"
+                },
+                {
+                    "attributeValues": [],
+                    "displayInList": false,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ONeXfm2FIBz",
+                    "name": "Person TB registration number",
+                    "searchable": false,
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "trackedEntityAttribute": {
+                        "id": "ntelZthDPpR"
+                    },
+                    "trackedEntityType": {
+                        "id": "MCPQUTHX1Ze"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "valueType": "TEXT"
+                }
+            ],
             "translations": [
                 {
                     "locale": "ar_IQ",
