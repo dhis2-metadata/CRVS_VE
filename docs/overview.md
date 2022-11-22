@@ -1,5 +1,9 @@
 # Vital Events Notification
 
+## Release Note
+
+- [Release Note](#crvs-ve-release-note)
+
 ## Design
 
 - [Version 1.1.0](crvs-ve-design-110)
@@ -8,10 +12,6 @@
 ## Installation
 
 - [Installation Guide](#crvs-ve-installation)
-
-## Release Note
-
-- [Release Note](#crvs-ve-release-note)
 
 ## Metadata Reference
 
