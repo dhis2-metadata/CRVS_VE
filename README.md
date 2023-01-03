@@ -1,1 +1,1 @@
-# Vital Events Notification - Tracker metadata package
+# Vital Events Notification
